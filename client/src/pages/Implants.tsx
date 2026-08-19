@@ -101,7 +101,7 @@ export default function Implants() {
             <div className="relative overflow-hidden rounded-2xl border border-white/15 bg-neutral-900 p-3 shadow-2xl">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-[#111] flex items-center justify-center p-1">
                 <img 
-                  src="/manus-storage/pasted_file_QFDdVb_image_0e8f7740.png" 
+                  src="/manus-storage/pasted_file_iBQh43_image_687f8355.png" 
                   alt="Antes e Depois de Implante Dentário" 
                   className="h-full w-full object-contain"
                 />

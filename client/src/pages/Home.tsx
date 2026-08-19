@@ -348,7 +348,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
-                  <img src="/manus-storage/pasted_file_IA41jz_image_164e2fed.png" alt="Caso clínico real - Transformação de sorriso" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/sec2-patient-square-v2_096301c8.png" alt="Paciente em atendimento odontológico" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Conforto e Segurança</h3>
@@ -366,7 +366,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
-                  <img src="/manus-storage/pasted_file_FnX8vI_image_a6a8615d.png" alt="Caso clínico real - Lentes e acabamento" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/sec2-lenses-square_cfe1190d.png" alt="Lentes de porcelana" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Estética Superior</h3>
@@ -384,7 +384,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
-                  <img src="/manus-storage/pasted_file_X48Dsm_04a52b44.png" alt="Caso clínico real - Procedimento com afastador" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/sec2-beforeafter-square_b9c41c93.png" alt="Comparação de antes e depois odontológico" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Resultados Reais</h3>
@@ -402,7 +402,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
-                  <img src="/manus-storage/pasted_file_JDxGL1_image_12168aa1.png" alt="Caso clínico real - Resultado final" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/sec3-procedure-square_85aa547f.png" alt="Procedimento odontológico" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Tecnologia Avançada</h3>

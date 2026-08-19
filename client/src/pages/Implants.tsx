@@ -99,15 +99,15 @@ export default function Implants() {
           <div className="relative mx-auto w-full max-w-[480px]">
             <div className="absolute -inset-3 rounded-3xl border border-[#C99A3A]/30 bg-[#C99A3A]/5 filter blur-xl" />
             <div className="relative overflow-hidden rounded-2xl border border-white/15 bg-neutral-900 p-3 shadow-2xl">
-              <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-950">
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-[#111] flex items-center justify-center p-1">
                 <img 
-                  src="/manus-storage/implant-service-planning_04d2460f.jpg" 
-                  alt="Planejamento e componentes para implante dentário" 
-                  className="h-full w-full object-cover"
+                  src="/manus-storage/imagemsorriso_e330c506.avif" 
+                  alt="Resultado de reabilitação e implante dentário" 
+                  className="h-full w-full object-contain"
                 />
               </div>
               <div className="p-4 text-center">
-                <p className="text-sm font-semibold text-white">Atendimento Direto e Transparente</p>
+                <p className="text-sm font-semibold text-white">Resultado Real de Reabilitação Oral</p>
                 <p className="mt-1 text-xs text-neutral-400">Av. Benedito de Andrade, 54A - Pirituba, São Paulo</p>
               </div>
             </div>

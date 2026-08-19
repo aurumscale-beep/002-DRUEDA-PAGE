@@ -42,7 +42,7 @@ const configs: Record<ServiceKey, ServiceConfig> = {
     description: "Converse agora pelo WhatsApp e descubra se os alinhadores transparentes podem ser indicados para o seu caso.",
     primaryCta: "QUERO COTAR MEU CASO",
     heroTagline: "Alinhadores transparentes · planejamento individual · Pirituba",
-    image: "/assets/service-invisalign-conversion_5e933805.jpg",
+    image: "/manus-storage/service-invisalign-conversion_5e933805.jpg",
     imageAlt: "Alinhador transparente sobre modelo odontológico e materiais de planejamento",
     introTitle: "O tratamento começa antes do primeiro alinhador.",
     introText: "O planejamento considera o seu sorriso, a mordida e o resultado que você busca. A indicação é explicada com clareza antes de qualquer decisão.",
@@ -69,7 +69,7 @@ const configs: Record<ServiceKey, ServiceConfig> = {
     description: "Peça uma avaliação pelo WhatsApp e entenda qual abordagem pode fazer sentido para o seu sorriso.",
     primaryCta: "QUERO ORÇAR MEU CLAREAMENTO",
     heroTagline: "Avaliação individual · orientação clara · Pirituba",
-    image: "/assets/clareamento-sorriso-real_e20c8b0d.jpg",
+    image: "/manus-storage/clareamento-sorriso-real_e20c8b0d.jpg",
     imageAlt: "Sorriso após clareamento dental com dentes claros",
     introTitle: "Antes de clarear, é preciso avaliar.",
     introText: "A tonalidade e a saúde dos dentes orientam a escolha do tratamento. O objetivo é buscar um resultado natural, respeitando as características de cada sorriso.",
@@ -96,7 +96,7 @@ const configs: Record<ServiceKey, ServiceConfig> = {
     description: "Envie uma mensagem e converse sobre cor, formato e proporção das lentes para o seu caso.",
     primaryCta: "QUERO ORÇAR MINHAS LENTES",
     heroTagline: "Planejamento estético · acabamento natural · Pirituba",
-    image: "/assets/service-veneers-conversion_d1af0474.jpg",
+    image: "/manus-storage/service-veneers-conversion_d1af0474.jpg",
     imageAlt: "Lentes de contato dental de porcelana em bandeja clínica com modelo odontológico",
     introTitle: "Naturalidade começa no planejamento.",
     introText: "As lentes são avaliadas em conjunto com formato, proporção, cor e relação entre os dentes. O planejamento vem antes da decisão pelo procedimento.",
@@ -138,7 +138,7 @@ export function ServicePage({ service }: { service: ServiceKey }) {
         <nav className="flex h-14 items-center justify-between rounded-full border border-white/70 bg-white/85 px-4 shadow-lg backdrop-blur-xl md:h-[66px] md:px-7">
           <a href="/" className="flex items-center gap-2.5" aria-label="Voltar para a Home">
             <span className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border border-[#C99A3A]/50 bg-black">
-              <img src="/assets/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" />
+              <img src="/manus-storage/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" />
             </span>
             <span className="hidden text-sm font-semibold tracking-tight text-neutral-900 sm:block">Dr. Alexandre Ueda</span>
           </a>
@@ -208,7 +208,7 @@ export function ServicePage({ service }: { service: ServiceKey }) {
         <section className="relative overflow-hidden bg-[#A07828] py-20 text-white md:py-24"><div className="pointer-events-none absolute inset-y-0 right-0 w-1/2 bg-[radial-gradient(circle_at_center,rgba(255,255,255,.13),transparent_62%)]" /><div className="relative mx-auto flex max-w-[1000px] flex-col gap-8 px-6 md:flex-row md:items-center md:justify-between md:px-12"><div><p className="text-xs font-semibold uppercase tracking-[2px] text-white/70">Fale agora com a clínica</p><h2 className="mt-3 max-w-[600px] text-3xl font-semibold leading-tight tracking-[-0.03em] md:text-[44px]">Quer saber quanto pode custar o seu caso?</h2><p className="mt-4 max-w-[560px] text-sm leading-7 text-white/80">Envie uma mensagem no WhatsApp e receba orientação sobre o próximo passo.</p></div><a href={ctaUrl} target="_blank" rel="noopener noreferrer" className="service-cta inline-flex min-h-14 shrink-0 items-center justify-center gap-3 rounded-full bg-[#25D366] px-6 text-sm font-bold text-white shadow-[0_14px_34px_rgba(0,0,0,.2)] md:px-7"><MessageCircle className="h-5 w-5 fill-current" />{config.primaryCta}</a></div></section>
       </main>
 
-      <footer className="bg-[#0d0d0d] px-6 py-12 text-neutral-400 md:px-12"><div className="mx-auto grid max-w-[1280px] gap-8 md:grid-cols-[1.2fr_1fr_1fr]"><div><div className="flex items-center gap-3"><span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-[#C99A3A]/50 bg-black"><img src="/assets/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" /></span><div><p className="font-semibold text-white">Dr. Alexandre Ueda</p><p className="text-xs text-neutral-500">Odontologia Integrada</p></div></div><p className="mt-4 max-w-[380px] text-sm leading-7">{config.label} com avaliação individual em Pirituba, São Paulo.</p></div><div className="space-y-3 text-sm"><p className="font-semibold text-white">Contato</p><a href={ctaUrl} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white"><MessageCircle className="mr-2 inline h-4 w-4 text-[#C99A3A]" />WhatsApp</a><p className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#C99A3A]" />Avenida Benedito de Andrade, 54A, São Paulo</p></div><div className="space-y-3 text-sm"><p className="font-semibold text-white">Registro profissional</p><p>CRO 138565-SP</p><a href="/" className="inline-flex items-center gap-2 text-[#C99A3A] hover:text-white"><ArrowLeft className="h-4 w-4" />Voltar para a Home</a></div></div><p className="mx-auto mt-10 max-w-[1280px] border-t border-white/10 pt-5 text-xs text-neutral-600">© 2026 Dr. Alexandre Ueda. Conteúdo informativo sujeito à avaliação clínica individual.</p></footer>
+      <footer className="bg-[#0d0d0d] px-6 py-12 text-neutral-400 md:px-12"><div className="mx-auto grid max-w-[1280px] gap-8 md:grid-cols-[1.2fr_1fr_1fr]"><div><div className="flex items-center gap-3"><span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-[#C99A3A]/50 bg-black"><img src="/manus-storage/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" /></span><div><p className="font-semibold text-white">Dr. Alexandre Ueda</p><p className="text-xs text-neutral-500">Odontologia Integrada</p></div></div><p className="mt-4 max-w-[380px] text-sm leading-7">{config.label} com avaliação individual em Pirituba, São Paulo.</p></div><div className="space-y-3 text-sm"><p className="font-semibold text-white">Contato</p><a href={ctaUrl} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white"><MessageCircle className="mr-2 inline h-4 w-4 text-[#C99A3A]" />WhatsApp</a><p className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#C99A3A]" />Avenida Benedito de Andrade, 54A, São Paulo</p></div><div className="space-y-3 text-sm"><p className="font-semibold text-white">Registro profissional</p><p>CRO 138565-SP</p><a href="/" className="inline-flex items-center gap-2 text-[#C99A3A] hover:text-white"><ArrowLeft className="h-4 w-4" />Voltar para a Home</a></div></div><p className="mx-auto mt-10 max-w-[1280px] border-t border-white/10 pt-5 text-xs text-neutral-600">© 2026 Dr. Alexandre Ueda. Conteúdo informativo sujeito à avaliação clínica individual.</p></footer>
     </div>
   );
 }

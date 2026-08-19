@@ -1,17 +1,15 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Router as WouterRouter, Switch } from "wouter";
+import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { routerBase } from "./lib/pages";
 import Home from "./pages/Home";
 import Implants from "./pages/Implants";
 import { ClareamentoDental, Invisalign, LentesDeContatoDental } from "./pages/ServicePage";
 
 
-/** GitHub Pages portability: routes retain the clinic's approved page structure under the repository path. */
-function SiteRoutes() {
+function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -42,9 +40,7 @@ function App() {
       >
         <TooltipProvider>
           <Toaster />
-          <WouterRouter base={routerBase}>
-            <SiteRoutes />
-          </WouterRouter>
+          <Router />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

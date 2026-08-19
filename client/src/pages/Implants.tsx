@@ -99,7 +99,7 @@ export default function Implants() {
         <nav className="flex h-14 items-center justify-between rounded-full border border-white/70 bg-white/80 px-4 shadow-lg backdrop-blur-xl md:h-[66px] md:px-7">
           <a href="/" className="flex items-center gap-2.5" aria-label="Voltar para a Home">
             <span className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border border-[#C99A3A]/50 bg-black">
-              <img src="/assets/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" />
+              <img src="/manus-storage/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" />
             </span>
             <span className="hidden text-sm font-semibold tracking-tight text-neutral-900 sm:block">Dr. Alexandre Ueda</span>
           </a>
@@ -116,7 +116,7 @@ export default function Implants() {
 
       <main>
         <section className="relative isolate min-h-[760px] overflow-hidden bg-[#141414] pt-28 text-white md:min-h-[780px] md:pt-36">
-          <div className="absolute inset-0 -z-20 bg-[url('/assets/implant-service-hero_7f28efa1.jpg')] bg-cover bg-[center_42%] opacity-55" />
+          <div className="absolute inset-0 -z-20 bg-[url('/manus-storage/implant-service-hero_7f28efa1.jpg')] bg-cover bg-[center_42%] opacity-55" />
           <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(20,20,20,.98)_0%,rgba(20,20,20,.82)_45%,rgba(20,20,20,.35)_100%)]" />
           <div className="absolute inset-x-0 bottom-0 -z-10 h-1/2 bg-gradient-to-t from-[#141414] to-transparent" />
           <div className="pointer-events-none absolute right-[-12%] top-[28%] -z-10 h-[420px] w-[420px] rounded-full border border-[#C99A3A]/25 md:h-[620px] md:w-[620px]" />
@@ -151,7 +151,7 @@ export default function Implants() {
               <div className="absolute -inset-4 rounded-[2rem] border border-[#C99A3A]/20 md:-inset-7" />
               <div className="relative overflow-hidden rounded-[1.5rem] border border-white/15 bg-neutral-950/70 p-3 shadow-2xl backdrop-blur-sm md:p-4">
                 <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-[1.1rem] bg-[#211f1c]">
-                  <img src="/assets/implant-service-planning_04d2460f.jpg" alt="Materiais e modelo usados no planejamento de implantes dentários" className="h-full w-full object-cover" />
+                  <img src="/manus-storage/implant-service-planning_04d2460f.jpg" alt="Materiais e modelo usados no planejamento de implantes dentários" className="h-full w-full object-cover" />
                 </div>
                 <div className="flex items-center justify-between gap-4 px-2 pb-1 pt-4">
                   <div>
@@ -217,7 +217,7 @@ export default function Implants() {
               <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full border border-[#C99A3A]/30" />
               <div className="relative overflow-hidden rounded-[1.6rem] border border-white/10 bg-[#0d0d0d] p-3 shadow-2xl md:p-4">
                 <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-[1.2rem] bg-[#201f1c]">
-                  <img src="/assets/implant-consultation-neutral_4ef450d5.jpg" alt="Modelo odontológico, componentes e materiais usados no planejamento de implantes" className="h-full w-full object-cover" />
+                  <img src="/manus-storage/implant-consultation-neutral_4ef450d5.jpg" alt="Modelo odontológico, componentes e materiais usados no planejamento de implantes" className="h-full w-full object-cover" />
                 </div>
                 <div className="flex gap-3 px-2 pb-1 pt-4">
                   <ClipboardList className="mt-0.5 h-5 w-5 shrink-0 text-[#C99A3A]" />
@@ -271,7 +271,7 @@ export default function Implants() {
         <div className="mx-auto grid max-w-[1280px] gap-8 md:grid-cols-[1.2fr_1fr_1fr]">
           <div>
             <div className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-[#C99A3A]/50 bg-black"><img src="/assets/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" /></span>
+              <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-[#C99A3A]/50 bg-black"><img src="/manus-storage/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="h-full w-full object-contain" /></span>
               <div><p className="font-semibold text-white">Dr. Alexandre Ueda</p><p className="text-xs text-neutral-500">Odontologia Integrada</p></div>
             </div>
             <p className="mt-4 max-w-[380px] text-sm leading-7">Implantes e reabilitação oral com planejamento individual, em Pirituba, São Paulo.</p>

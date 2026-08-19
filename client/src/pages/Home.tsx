@@ -73,7 +73,7 @@ export default function Home() {
         <div 
           className="absolute inset-0 bg-no-repeat bg-cover bg-center z-0 opacity-100"
           style={{
-            backgroundImage: `url('/assets/hero_bg_curved_d78f9904.webp')`,
+            backgroundImage: `url('/manus-storage/hero_bg_curved_d78f9904.webp')`,
             backgroundPosition: 'center center',
           }}
           aria-label="Fundo do Home"
@@ -93,7 +93,7 @@ export default function Home() {
           >
             <div className="flex items-center gap-2.5 mr-2">
               <div className="w-9 h-9 rounded-full overflow-hidden border border-[#C99A3A]/40 bg-black flex items-center justify-center shadow-sm">
-                <img src="/assets/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="w-full h-full object-contain" />
+                <img src="/manus-storage/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="w-full h-full object-contain" />
               </div>
             </div>
 
@@ -198,7 +198,7 @@ export default function Home() {
         <div 
           className="absolute inset-0 bg-no-repeat z-0 opacity-100"
           style={{
-            backgroundImage: `url('/assets/hero_bg_curved_d78f9904.webp')`,
+            backgroundImage: `url('/manus-storage/hero_bg_curved_d78f9904.webp')`,
             backgroundPosition: '64% top',
             backgroundSize: 'auto 100%',
           }}
@@ -217,7 +217,7 @@ export default function Home() {
           >
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full overflow-hidden border border-[#C99A3A]/40 bg-black flex items-center justify-center">
-                <img src="/assets/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="w-full h-full object-contain" />
+                <img src="/manus-storage/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="w-full h-full object-contain" />
               </div>
               <span className="text-[13px] font-semibold text-neutral-900 tracking-tight">Dr. Alexandre Ueda</span>
             </div>
@@ -348,7 +348,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/assets/sec2-patient-square-v2_096301c8.png" alt="Paciente em atendimento odontológico" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/pasted_file_IA41jz_image_164e2fed.png" alt="Caso clínico real - Transformação de sorriso" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Conforto e Segurança</h3>
@@ -366,7 +366,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/assets/sec2-lenses-square_cfe1190d.png" alt="Lentes de porcelana" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/pasted_file_FnX8vI_image_a6a8615d.png" alt="Caso clínico real - Lentes e acabamento" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Estética Superior</h3>
@@ -384,7 +384,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/assets/sec2-beforeafter-square_b9c41c93.png" alt="Comparação de antes e depois odontológico" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/pasted_file_X48Dsm_04a52b44.png" alt="Caso clínico real - Procedimento com afastador" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Resultados Reais</h3>
@@ -402,7 +402,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
                 <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/assets/sec3-procedure-square_85aa547f.png" alt="Procedimento odontológico" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/manus-storage/pasted_file_JDxGL1_image_12168aa1.png" alt="Caso clínico real - Resultado final" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Tecnologia Avançada</h3>
@@ -440,7 +440,7 @@ export default function Home() {
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#C99A3A] to-[#E5C158]" />
               <div>
                 <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100 border border-neutral-100 sm:rounded-2xl">
-                  <img src="/assets/service-implant-detail_186973c0.jpg" alt="Planejamento e componentes de implante dentário" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
+                  <img src="/manus-storage/service-implant-detail_186973c0.jpg" alt="Planejamento e componentes de implante dentário" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
                 </div>
                 <h3 className="mt-3 text-sm font-bold leading-tight text-neutral-900 sm:mt-5 sm:text-xl">Implante Dentário</h3>
                 <p className="mt-2 text-[11px] leading-[1.45] text-neutral-600 sm:mt-3 sm:text-sm">Avaliação, planejamento e reabilitação para o seu caso.</p>
@@ -451,7 +451,7 @@ export default function Home() {
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#C99A3A] to-[#E5C158]" />
               <div>
                 <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100 border border-neutral-100 sm:rounded-2xl">
-                  <img src="/assets/service-invisalign-detail_99d6e8cb.jpg" alt="Alinhador transparente sobre modelo odontológico" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
+                  <img src="/manus-storage/service-invisalign-detail_99d6e8cb.jpg" alt="Alinhador transparente sobre modelo odontológico" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
                 </div>
                 <h3 className="mt-3 text-sm font-bold leading-tight text-neutral-900 sm:mt-5 sm:text-xl">Invisalign</h3>
                 <p className="mt-2 text-[11px] leading-[1.45] text-neutral-600 sm:mt-3 sm:text-sm">Alinhadores transparentes com planejamento individual.</p>
@@ -462,7 +462,7 @@ export default function Home() {
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#C99A3A] to-[#E5C158]" />
               <div>
                 <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100 border border-neutral-100 sm:rounded-2xl">
-                  <img src="/assets/clareamento-sorriso-real_e20c8b0d.jpg" alt="Sorriso após clareamento dental com dentes claros" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
+                  <img src="/manus-storage/clareamento-sorriso-real_e20c8b0d.jpg" alt="Sorriso após clareamento dental com dentes claros" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
                 </div>
                 <h3 className="mt-3 text-sm font-bold leading-tight text-neutral-900 sm:mt-5 sm:text-xl">Clareamento Dental</h3>
                 <p className="mt-2 text-[11px] leading-[1.45] text-neutral-600 sm:mt-3 sm:text-sm">Mais luminosidade com avaliação e indicação cuidadosa.</p>
@@ -472,7 +472,7 @@ export default function Home() {
             <a href="/lentes-de-contato-dental" className="bg-white rounded-2xl p-3 shadow-xl border border-neutral-200/80 flex flex-col justify-between card-hover-effect relative overflow-hidden sm:rounded-3xl sm:p-5 lg:p-6">
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#C99A3A] to-[#E5C158]" />
               <div>
-                <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100 border border-neutral-100 sm:rounded-2xl"><img src="/assets/service-veneers-detail_40fa3d3e.jpg" alt="Lentes de contato dental sobre bandeja clínica" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" /></div>
+                <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100 border border-neutral-100 sm:rounded-2xl"><img src="/manus-storage/service-veneers-detail_40fa3d3e.jpg" alt="Lentes de contato dental sobre bandeja clínica" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" /></div>
                 <h3 className="mt-3 text-sm font-bold leading-tight text-neutral-900 sm:mt-5 sm:text-xl">Lentes de Contato Dental</h3>
                 <p className="mt-2 text-[11px] leading-[1.45] text-neutral-600 sm:mt-3 sm:text-sm">Cor, formato e proporção avaliados para o seu sorriso.</p>
               </div>
@@ -513,28 +513,28 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="rounded-3xl overflow-hidden h-[300px] border border-[#C99A3A]/30 group relative">
-              <img src="/assets/1000419547_ca3336b8.jpg" alt="Sorriso com Lentes" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/manus-storage/1000419547_ca3336b8.jpg" alt="Sorriso com Lentes" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-6">
                 <span className="text-white font-semibold text-base">Lentes de Porcelana Superior e Inferior</span>
               </div>
             </div>
 
             <div className="rounded-3xl overflow-hidden h-[300px] border border-[#C99A3A]/30 group relative">
-              <img src="/assets/sorriso-angulo-alternativo_f2a1bfd6.png" alt="Sorriso com lentes em ângulo alternativo" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/manus-storage/sorriso-angulo-alternativo_f2a1bfd6.png" alt="Sorriso com lentes em ângulo alternativo" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-6">
                 <span className="text-white font-semibold text-base">Sorriso com lentes em outro ângulo</span>
               </div>
             </div>
 
             <div className="rounded-3xl overflow-hidden h-[300px] border border-[#C99A3A]/30 group relative">
-              <img src="/assets/1000419555_13d183c5.jpg" alt="Sorriso Lateral" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/manus-storage/1000419555_13d183c5.jpg" alt="Sorriso Lateral" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-6">
                 <span className="text-white font-semibold text-base">Estética do Sorriso Lateral</span>
               </div>
             </div>
 
             <div className="rounded-3xl overflow-hidden h-[300px] border border-[#C99A3A]/30 group relative lg:col-span-2">
-              <img src="/assets/modelagem-protetica-paisagem-v2_d1b01190.png" alt="Modelos de prótese em composição paisagem" className="w-full h-full object-contain bg-black group-hover:scale-[1.02] transition-transform duration-500" />
+              <img src="/manus-storage/modelagem-protetica-paisagem-v2_d1b01190.png" alt="Modelos de prótese em composição paisagem" className="w-full h-full object-contain bg-black group-hover:scale-[1.02] transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-6">
                 <span className="text-white font-semibold text-base">Modelagem Digital e Precisão Protética</span>
               </div>
@@ -688,7 +688,7 @@ export default function Home() {
           <div className="flex flex-col items-start gap-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden border border-[#C99A3A]/40 bg-black flex items-center justify-center">
-                <img src="/assets/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="w-full h-full object-contain" />
+                <img src="/manus-storage/logo-ueda-simbolo_b1115bb5.png" alt="Símbolo UEDA Odontologia Integrada" className="w-full h-full object-contain" />
               </div>
               <div>
                 <span className="block text-white font-bold text-lg tracking-tight">Dr. Alexandre Ueda</span>
@@ -755,7 +755,25 @@ export default function Home() {
             <span className="text-xs text-[#C99A3A] font-medium">Venha nos fazer uma visita</span>
           </div>
           <div className="w-full h-[220px] lg:h-[360px] rounded-2xl overflow-hidden border border-neutral-800 shadow-2xl">
-            <MapView className="h-full" />
+            <MapView 
+              onMapReady={(map: any) => {
+                if (window.google && window.google.maps) {
+                  const geocoder = new window.google.maps.Geocoder();
+                  geocoder.geocode({ address: 'Avenida Benedito de Andrade, 54A, Pirituba, São Paulo' }, (results, status) => {
+                    if (status === 'OK' && results?.[0]?.geometry.location) {
+                      const addressLocation = results[0].geometry.location;
+                      map.setCenter(addressLocation);
+                      map.setZoom(17);
+                      new window.google.maps.Marker({
+                        position: addressLocation,
+                        map: map,
+                        title: 'Dr. Alexandre Ueda, Avenida Benedito de Andrade, 54A, São Paulo'
+                      });
+                    }
+                  });
+                }
+              }}
+            />
           </div>
         </div>
 

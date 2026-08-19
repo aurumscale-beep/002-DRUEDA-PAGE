@@ -24,15 +24,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
-      - name: Preparar pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
       - name: Instalar dependências
-        run: pnpm install --frozen-lockfile
+        run: npm install
       - name: Gerar site estático
-        run: pnpm build
+        run: npm run build
         env:
           VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH || format('/{0}/', github.event.repository.name) }}
       - name: Criar fallback para páginas internas

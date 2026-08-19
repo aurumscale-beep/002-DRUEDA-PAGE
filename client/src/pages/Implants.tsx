@@ -101,13 +101,13 @@ export default function Implants() {
             <div className="relative overflow-hidden rounded-2xl border border-white/15 bg-neutral-900 p-3 shadow-2xl">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-[#111] flex items-center justify-center p-1">
                 <img 
-                  src="/manus-storage/imagemsorriso_e330c506.avif" 
-                  alt="Resultado de reabilitação e implante dentário" 
+                  src="/manus-storage/pasted_file_QFDdVb_image_0e8f7740.png" 
+                  alt="Antes e Depois de Implante Dentário" 
                   className="h-full w-full object-contain"
                 />
               </div>
               <div className="p-4 text-center">
-                <p className="text-sm font-semibold text-white">Resultado Real de Reabilitação Oral</p>
+                <p className="text-sm font-semibold text-white">Antes e Depois: Implante Dentário Real</p>
                 <p className="mt-1 text-xs text-neutral-400">Av. Benedito de Andrade, 54A - Pirituba, São Paulo</p>
               </div>
             </div>

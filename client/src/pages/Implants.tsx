@@ -22,15 +22,20 @@ export default function Implants() {
       `}</style>
 
       {/* Botão flutuante WhatsApp */}
-      <a
-        href={whatsappUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Fale sobre implantes pelo WhatsApp"
-        className="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition-transform duration-200 hover:scale-110 active:scale-95"
-      >
-        <MessageCircle className="h-8 w-8 fill-current" />
-      </a>
+      <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+        <div className="hidden sm:flex items-center bg-neutral-900/90 backdrop-blur-md text-white px-4 py-2.5 rounded-2xl shadow-xl border border-[#C99A3A]/40 text-xs font-medium animate-pulse">
+          <span>Fale sobre implantes com nosso dentista</span>
+        </div>
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Fale sobre implantes pelo WhatsApp"
+          className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition-transform duration-200 hover:scale-110 active:scale-95"
+        >
+          <MessageCircle className="h-7 w-7 fill-current md:h-8 md:w-8" />
+        </a>
+      </div>
 
       {/* Header Fixo */}
       <header className="fixed left-1/2 top-4 z-40 w-full max-w-[1100px] -translate-x-1/2 px-4">

@@ -130,9 +130,14 @@ export function ServicePage({ service }: { service: ServiceKey }) {
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#F5F5F3] font-sans text-neutral-900 antialiased">
-      <a href={ctaUrl} target="_blank" rel="noopener noreferrer" aria-label={`Falar sobre ${config.label} pelo WhatsApp`} className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition-transform hover:scale-110 active:scale-95 md:bottom-6 md:right-6 md:h-16 md:w-16">
-        <MessageCircle className="h-7 w-7 fill-current" />
-      </a>
+      <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+        <div className="hidden sm:flex items-center bg-neutral-900/90 backdrop-blur-md text-white px-4 py-2.5 rounded-2xl shadow-xl border border-[#C99A3A]/40 text-xs font-medium animate-pulse">
+          <span>Tire suas dúvidas sobre {config.label}</span>
+        </div>
+        <a href={ctaUrl} target="_blank" rel="noopener noreferrer" aria-label={`Falar sobre ${config.label} pelo WhatsApp`} className="flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition-transform hover:scale-110 active:scale-95 md:h-16 md:w-16">
+          <MessageCircle className="h-7 w-7 fill-current" />
+        </a>
+      </div>
 
       <header className="fixed left-1/2 top-4 z-40 w-full max-w-[1100px] -translate-x-1/2 px-4 md:top-6">
         <nav className="flex h-14 items-center justify-between rounded-full border border-white/70 bg-white/85 px-4 shadow-lg backdrop-blur-xl md:h-[66px] md:px-7">

@@ -347,8 +347,8 @@ export default function Home() {
                 </span>
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
-                <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/manus-storage/pasted_file_IA41jz_image_164e2fed.png" alt="Caso clínico real - Transformação de sorriso" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
+                  <img src="/manus-storage/pasted_file_IA41jz_image_164e2fed.png" alt="Caso clínico real - Transformação de sorriso" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Conforto e Segurança</h3>
@@ -365,8 +365,8 @@ export default function Home() {
                 </span>
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
-                <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/manus-storage/pasted_file_FnX8vI_image_a6a8615d.png" alt="Caso clínico real - Lentes e acabamento" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
+                  <img src="/manus-storage/pasted_file_FnX8vI_image_a6a8615d.png" alt="Caso clínico real - Lentes e acabamento" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Estética Superior</h3>
@@ -383,8 +383,8 @@ export default function Home() {
                 </span>
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
-                <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/manus-storage/pasted_file_X48Dsm_04a52b44.png" alt="Caso clínico real - Procedimento com afastador" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
+                  <img src="/manus-storage/pasted_file_X48Dsm_04a52b44.png" alt="Caso clínico real - Procedimento com afastador" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Resultados Reais</h3>
@@ -401,8 +401,8 @@ export default function Home() {
                 </span>
               </div>
               <div className="w-full rounded-2xl border border-[#C99A3A]/30 bg-neutral-900/85 p-2.5 shadow-2xl backdrop-blur-md card-hover-effect sm:rounded-3xl sm:p-3.5 lg:p-5">
-                <div className="aspect-square w-full overflow-hidden rounded-xl bg-neutral-950 sm:rounded-2xl">
-                  <img src="/manus-storage/pasted_file_JDxGL1_image_12168aa1.png" alt="Caso clínico real - Resultado final" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+                <div className="aspect-square w-full overflow-hidden rounded-xl bg-[#111] p-1.5 sm:rounded-2xl sm:p-2 border border-neutral-800 flex items-center justify-center">
+                  <img src="/manus-storage/pasted_file_JDxGL1_image_12168aa1.png" alt="Caso clínico real - Resultado final" className="h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="pt-2 text-center sm:pt-3 lg:pt-4">
                   <h3 className="text-[11px] font-semibold leading-tight text-white sm:text-base lg:text-lg">Tecnologia Avançada</h3>
@@ -461,8 +461,8 @@ export default function Home() {
             <a href="/clareamento-dental" className="bg-white rounded-2xl p-3 shadow-xl border border-neutral-200/80 flex flex-col justify-between card-hover-effect relative overflow-hidden sm:rounded-3xl sm:p-5 lg:p-6">
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#C99A3A] to-[#E5C158]" />
               <div>
-                <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100 border border-neutral-100 sm:rounded-2xl">
-                  <img src="/manus-storage/clareamento-sorriso-real_e20c8b0d.jpg" alt="Sorriso após clareamento dental com dentes claros" className="h-full w-full object-cover transition-transform duration-500 hover:scale-105" />
+                <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-900 border border-neutral-800 flex items-center justify-center p-1 sm:rounded-2xl">
+                  <img src="/manus-storage/pasted_file_IA41jz_image_164e2fed.png" alt="Resultado de clareamento e transformação de sorriso" className="h-full w-full object-contain transition-transform duration-500 hover:scale-105" />
                 </div>
                 <h3 className="mt-3 text-sm font-bold leading-tight text-neutral-900 sm:mt-5 sm:text-xl">Clareamento Dental</h3>
                 <p className="mt-2 text-[11px] leading-[1.45] text-neutral-600 sm:mt-3 sm:text-sm">Mais luminosidade com avaliação e indicação cuidadosa.</p>
